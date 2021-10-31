@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    color: black ;
+    font-family: 'Zen Loop', cursive;
+
+}
+
+.fas {
+    font-size: 1.8rem;
+    padding: .6rem;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link{
+   margin-right:.8rem; 
+   margin-left: .8rem;
+   font-size: 1.1rem;;
+   color: black;
+   text-transform: uppercase;
+   font-family: 'Rubik', sans-serif;
+   
+}
+
+.nav-link:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(204, 49, 83);
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 2rem;
+    outline: none;
+    margin-right: -35px;
+    border: .1rem solid rgb(204, 49, 83);
+}
+
+.btn0{
+    height:40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(204, 49, 83);
+    color: white;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+
+.main{
+    background: url(./img/organık4.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+
+}
+
+.main h2{
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+
+
+}
+
+.btn1{
+    height: 40px;
+    width: 30%;
+    background-color: rgb(204, 49, 83);
+    color: white;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+}
+
+.btn1:hover{
+    background: rgb(145, 34, 58) ;
+    transition: .5s;
+}
+
+.col-lg-4 h6{
+    font-size: 1.3rem;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.col-lg-5 h1{
+    font-size: 3rem;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.col-lg-5 h6{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+}
+
+/* .img-fluid{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: -9px 7px 13px -4px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -9px 7px 13px -4px rgba(0,0,0,0.63);
+    -moz-box-shadow: -9px 7px 13px -4px rgba(0,0,0,0.63);
+} */
+
+
+.card:hover{
+    box-shadow: -9px 7px 13px -4px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -9px 7px 13px -4px rgba(0,0,0,0.63);
+    -moz-box-shadow: -9px 7px 13px -4px rgba(0,0,0,0.63);
+}
+
+.product .container .card-body{
+    flex: 1 1 20rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+    border: 1rem solid #fff;
+    height: 20rem;
+    position: relative;
+}
+
+.product .container .card-body img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product .col-lg-3 h6{
+    font-family: 'Rubik', sans-serif;
+    padding: 5px;
+    font-size: 1.3rem;
+}
+
+.product .col-lg-3 p{
+    font-family: 'Rubik', sans-serif;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+
+
+.about .col-lg-8 h1{
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.about .col-lg-8 h6{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.about .col-lg-4 h5{
+    font-family: 'Rubik', sans-serif;
+    padding: 6px;
+    text-align: center;
+}
+
+.about .col-lg-4 p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+    padding: 5px;
+    text-align: center;
+}
+
+.about .col-lg-4 img{
+    border-radius: .5rem;
+}
+
+
+.mola{
+    background: linear-gradient(rgba(0,0,0,0.4) ,rgba(0,0,0,0.4)),url(./images/mola3.jpg);
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+.mola .col-lg-6 h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2.8rem;
+}
+
+.mola .col-lg-6 p{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5rem;
+}
+
+
+.iletisim .col-lg-4 h6{
+    font-family: 'Rubik', sans-serif;
+    padding: 5px;
+}
+
+.iletisim .col-lg-4 p{
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.iletisim .col-lg-5 h1{
+    font-family: 'Rubik', sans-serif;
+    padding:5px;
+}
+.iletisim .col-lg-5 h6{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.7rem;
+    padding: 5px;
+}
